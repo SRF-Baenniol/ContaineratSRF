@@ -19,7 +19,7 @@ services:
       - "postgres_db:postgres"
       - "redis:redis"
     ports:
-      - 8081:8081
+      - 80:8081
       - 11113:11113
     environment:
       - DB2_1_PORT_5432_TCP_ADDR=postgres
